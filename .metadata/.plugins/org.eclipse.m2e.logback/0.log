@@ -1,0 +1,11 @@
+2025-04-08 22:05:09,959 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-04-08 22:05:47,279 [Worker-15: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:Registration_Form:0.0.1-SNAPSHOT @ D:\Spring\SpringBoot\Registration_Form\pom.xml.
+2025-04-08 22:05:48,909 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Registration_Form/src/main/java
+2025-04-08 22:05:48,914 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Registration_Form/src/main/resources
+2025-04-08 22:05:48,915 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Registration_Form/src/main/resources
+2025-04-08 22:05:48,917 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Registration_Form/src/test/java
+2025-04-08 22:05:48,918 [Worker-15: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Registration_Form/src/test/resources
+2025-04-08 22:05:49,230 [Worker-15: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2025-04-08 22:05:50,448 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-08 22:05:50,469 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2025-04-08 22:05:50,481 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Spring\SpringBoot\Registration_Form\src\test\resources
