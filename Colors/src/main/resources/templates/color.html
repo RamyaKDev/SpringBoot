@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:"th=http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>color</title>
+</head>
+<body th:style="'background-color:' + ${selectedcolor}" >
+<form action="/" method="get">
+<input type="color" name="colors" th:value='${selectedcolor}'>
+<input type="submit" value="Change Color">
+</form>
+</body>
+</html>
