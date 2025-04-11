@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org">
+	<head>
+	<title>		Calculator	</title>
+	<style type="text/css">
+		body{
+		    color: antiquewhite;
+		    background-color: bisque;
+		    font-size: 30px;		   
+		}
+		.divform{
+		    text-align:center ;
+		    width:700px;
+		    height:700px;
+		    border:2px solid black;
+		    position:relative;
+		    top:100px;
+		    left:600px;
+		    background-color: rgb(71, 145, 189);
+		}
+		.buttondiv{
+		    background-color:yellowgreen;
+		    border-radius: 5px solid  ;
+		    width:200px;
+		    height:50px;
+		    font-size: 40px;
+		}
+		p span{
+		    background-color:darksalmon;
+			font-size: 60px;			
+		}
+	</style>
+	</head>
+	<body>
+		<div class="divform">
+		            <form action="calculated" method="post">
+		                <h1>Calculator </h1>
+		            <label for="Number1">Number1</label>
+		            <input type="number" name="Number1" >
+		            <br><br>
+		            <label for="Number2">Number2</label>
+		            <input type="number" name="Number2" >
+		            <br><br>
+		            <label for="Operation">Select the operation:</label>
+		            <select name="Operation">
+		               
+		                <option value="+">Addition</option>
+		                <option value="-">Subtraction</option>
+		                <option value="*">Multiplication</option>
+		                <option value="/">Division</option>
+		                </select>
+		                <br><br>
+		                <input class="buttondiv" type="submit" value="Calculate">
+		                <br><br>
+		                <h2>Result :</h2>
+						<p> <span th:text="${num1}"> </span>
+						       <span th:text="${ops}"> </span>
+						       <span th:text="${num2}"> </span>
+						       <span th:text="${assign}" > </span>								
+						       <span th:text="${res}"> </span>
+						   </p>		              
+		                </form>
+		            </div>
+	            </body>
+	</html>
