@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather </title>
+	<style type="text/css">
+			body{
+			    color: antiquewhite;
+			    background-color: bisque;
+			    font-size: 30px;		   
+			}
+			form{
+			    text-align:center ;
+			    width:1000px;
+			    height:1000px;
+			    border:2px solid black;
+			    position:relative;
+			    top:100px;
+			    left:600px;
+			    background-color: rgb(71, 145, 189);
+			}
+			</style>
+</head>
+<body>
+	
+	<form action="weather_result" method="get">
+		<h1>Weather details</h1>
+<label >City:</label>
+<input type="text" name="city">
+<button type="submit"> Show Weather details</button>
+<br><br>
+<div th:if="${weatherdetails}">
+	<label >Country:</label>
+		<h3 th:text = "${weatherdetails.sys.country}"></h3>
+	<label >City:</label>
+	<h3 th:text = "${weatherdetails.name}"></h3>
+	<label >Humidity:</label>
+	<h3 th:text = "${weatherdetails.main.humidity}"></h3>
+	<label >Temperature:</label>
+	<h3 th:text = "${weatherdetails.main.temp}"></h3>
+	<label >Description:</label>
+		<h3 th:text = "${weatherdetails.weather[0].description}"></h3>
+		
+</div>
+</form>
+</body>
+</html>

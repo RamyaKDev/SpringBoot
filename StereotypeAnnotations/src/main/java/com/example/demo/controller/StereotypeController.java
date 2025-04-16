@@ -4,7 +4,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 
-@Controller("springController")
+//@Controller("springController")
+@Controller
 public class StereotypeController {	
 
 	public String getController() {

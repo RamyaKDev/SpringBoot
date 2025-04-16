@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Quote Generator </title>
+    <style type="text/css">
+        body{
+            color: antiquewhite;
+            background-color: bisque;
+            font-size: 30px;		   
+        }
+        form{
+            text-align:center ;
+            width:500px;
+            height:300px;
+            border:2px solid black;
+            position:relative;
+            top:100px;
+            left:600px;
+            background-color: rgb(71, 145, 189);
+        }
+		h3{
+		         color:yellowgreen;
+		        }
+    </style>
+</head>
+<body>
+<div>
+    <form action="/" method="get">
+        <h2>Quote Generator</h2>
+        <h3 th:text="${quo}"></h3>
+        <br>
+        <input type="submit" value="Next Quote">
+    </form>
+</div>
+</body>
+</html>
