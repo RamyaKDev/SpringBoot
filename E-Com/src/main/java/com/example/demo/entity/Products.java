@@ -20,6 +20,11 @@ public long getNo() {
 public void setNo(long no) {
 	this.no = no;
 }
+@Override
+public String toString() {
+	return "Products [no=" + no + ", url=" + url + ", description=" + description + ", name=" + name + ", stock="
+			+ stock + ", price=" + price + "]";
+}
 public String getUrl() {
 	return url;
 }
