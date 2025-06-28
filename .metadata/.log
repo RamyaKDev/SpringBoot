@@ -11294,3 +11294,666 @@ java.lang.NullPointerException: Cannot invoke "org.osgi.framework.BundleContext.
 	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression.syncRefresh(AsyncLiveExpression.java:134)
 	at org.springsource.ide.eclipse.commons.livexp.core.AsyncLiveExpression$1.run(AsyncLiveExpression.java:101)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-06-23 10:21:37.839 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-23 10:21:40.800
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-06-23 10:21:41.025
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-23 10:21:46.567
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-06-23 10:21:47.789
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-23 10:21:47.789
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-06-23 10:21:48.274
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-23 10:21:48.274
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-06-23 10:21:52.654
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1750688512652
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:52.654
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-06-23 10:21:52.764
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 25584
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-23 10:21:53.665
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.030
+!MESSAGE Boot project ADDED: BeanConfiguration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.031
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.035
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.035
+!MESSAGE Boot project ADDED: BeanScope
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.037
+!MESSAGE Boot project ADDED: Calculator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.038
+!MESSAGE Boot project ADDED: Colors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.039
+!MESSAGE Boot project ADDED: Component_Bean
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.041
+!MESSAGE Boot project ADDED: Controller_RestController
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.042
+!MESSAGE Boot project ADDED: E-Com
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.043
+!MESSAGE Boot project ADDED: EagerLazyJavabaseconfig
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.045
+!MESSAGE Boot project ADDED: EagerloaderLazyloader
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.046
+!MESSAGE Boot project ADDED: EmailSent
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.047
+!MESSAGE Boot project ADDED: EmployeeManagement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.048
+!MESSAGE Boot project ADDED: ExceptionHandlingDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.049
+!MESSAGE Boot project ADDED: H2_DB_Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.050
+!MESSAGE Boot project ADDED: LoggingDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.052
+!MESSAGE Boot project ADDED: PathVariable
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.053
+!MESSAGE Boot project ADDED: Po
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.055
+!MESSAGE Boot project ADDED: Product_Catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.056
+!MESSAGE Boot project ADDED: Product_Catalogue1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.057
+!MESSAGE Boot project ADDED: QualifierAnnatation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.058
+!MESSAGE Boot project ADDED: QuoteGenerator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.059
+!MESSAGE Boot project ADDED: Registration_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.060
+!MESSAGE Boot project ADDED: SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.061
+!MESSAGE Boot project ADDED: StereotypeAnnotations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.061
+!MESSAGE Boot project ADDED: ToDoList
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.062
+!MESSAGE Boot project ADDED: Weather
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.063
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-23 10:21:54.064
+!MESSAGE Boot project ADDED: springbootsecurityauthentication
+
+!ENTRY org.eclipse.jface 2 0 2025-06-23 10:22:01.456
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-23 10:22:01.456
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-06-26 11:28:21.403 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-26 11:28:24.427
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-06-26 11:28:24.693
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-26 11:28:29.375
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-06-26 11:28:30.698
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-26 11:28:30.698
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-06-26 11:28:31.293
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-26 11:28:31.293
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-06-26 11:28:38.733
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1750951718725
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:38.733
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-06-26 11:28:38.804
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 14216
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-26 11:28:42.346
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.882
+!MESSAGE Boot project ADDED: BeanConfiguration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.888
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.895
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.906
+!MESSAGE Boot project ADDED: BeanScope
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.917
+!MESSAGE Boot project ADDED: Calculator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.927
+!MESSAGE Boot project ADDED: Colors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.935
+!MESSAGE Boot project ADDED: Component_Bean
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.942
+!MESSAGE Boot project ADDED: Controller_RestController
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.955
+!MESSAGE Boot project ADDED: E-Com
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.965
+!MESSAGE Boot project ADDED: EagerLazyJavabaseconfig
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.972
+!MESSAGE Boot project ADDED: EagerloaderLazyloader
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.975
+!MESSAGE Boot project ADDED: EmailSent
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:42.984
+!MESSAGE Boot project ADDED: EmployeeManagement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.000
+!MESSAGE Boot project ADDED: ExceptionHandlingDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.008
+!MESSAGE Boot project ADDED: H2_DB_Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.023
+!MESSAGE Boot project ADDED: LoggingDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.036
+!MESSAGE Boot project ADDED: PathVariable
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.039
+!MESSAGE Boot project ADDED: Po
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.042
+!MESSAGE Boot project ADDED: Product_Catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.047
+!MESSAGE Boot project ADDED: Product_Catalogue1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.052
+!MESSAGE Boot project ADDED: QualifierAnnatation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.061
+!MESSAGE Boot project ADDED: QuoteGenerator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.072
+!MESSAGE Boot project ADDED: Registration_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.078
+!MESSAGE Boot project ADDED: SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.085
+!MESSAGE Boot project ADDED: StereotypeAnnotations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.090
+!MESSAGE Boot project ADDED: ToDoList
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.093
+!MESSAGE Boot project ADDED: Weather
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.099
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:28:43.109
+!MESSAGE Boot project ADDED: springbootsecurityauthentication
+
+!ENTRY org.eclipse.jface 2 0 2025-06-26 11:29:29.376
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-26 11:29:29.377
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2025-06-26 11:29:35.973 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-26 11:29:39.147
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-06-26 11:29:39.437
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-26 11:29:42.981
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-06-26 11:29:43.592
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-26 11:29:43.592
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-06-26 11:29:44.120
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-26 11:29:44.120
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-06-26 11:29:50.376
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1750951790373
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:50.378
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-06-26 11:29:50.405
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 23200
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-26 11:29:52.629
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.839
+!MESSAGE Boot project ADDED: BeanConfiguration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.840
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.841
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.845
+!MESSAGE Boot project ADDED: BeanScope
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.851
+!MESSAGE Boot project ADDED: Calculator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.860
+!MESSAGE Boot project ADDED: Colors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.863
+!MESSAGE Boot project ADDED: Component_Bean
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.864
+!MESSAGE Boot project ADDED: Controller_RestController
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.872
+!MESSAGE Boot project ADDED: E-Com
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.877
+!MESSAGE Boot project ADDED: EagerLazyJavabaseconfig
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.884
+!MESSAGE Boot project ADDED: EagerloaderLazyloader
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.885
+!MESSAGE Boot project ADDED: EmailSent
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.890
+!MESSAGE Boot project ADDED: EmployeeManagement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.896
+!MESSAGE Boot project ADDED: ExceptionHandlingDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.906
+!MESSAGE Boot project ADDED: H2_DB_Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.906
+!MESSAGE Boot project ADDED: LoggingDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.911
+!MESSAGE Boot project ADDED: PathVariable
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.914
+!MESSAGE Boot project ADDED: Po
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.920
+!MESSAGE Boot project ADDED: Product_Catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.926
+!MESSAGE Boot project ADDED: Product_Catalogue1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.933
+!MESSAGE Boot project ADDED: QualifierAnnatation
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.934
+!MESSAGE Boot project ADDED: QuoteGenerator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.935
+!MESSAGE Boot project ADDED: Registration_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.941
+!MESSAGE Boot project ADDED: SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.942
+!MESSAGE Boot project ADDED: StereotypeAnnotations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.946
+!MESSAGE Boot project ADDED: ToDoList
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.952
+!MESSAGE Boot project ADDED: Weather
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.958
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:29:52.967
+!MESSAGE Boot project ADDED: springbootsecurityauthentication
+
+!ENTRY org.eclipse.jface 2 0 2025-06-26 11:30:02.277
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-26 11:30:02.277
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:30:40.030
+!MESSAGE Classpath changed for project: Assignment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:30:40.031
+!MESSAGE Boot project ADDED: Assignment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:30:41.245
+!MESSAGE Classpath changed for project: Assignment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-26 11:30:49.128
+!MESSAGE Classpath changed for project: Assignment
+!SESSION 2025-06-27 15:26:01.394 -----------------------------------------------
+eclipse.buildId=4.35.0.202503181406
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-27 15:26:03.800
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-06-27 15:26:04.033
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (328) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-06-27 15:26:59.970
+!MESSAGE Logback config file: I:\Spring\SpringBoot\SpringBoot\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-06-27 15:27:01.269
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-27 15:27:01.269
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-06-27 15:27:01.790
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-06-27 15:27:01.790
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-06-27 15:27:06.113
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.6.v20250130-0529\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Dspring.config.location=classpath:/application.properties
+-Xlog:jni+resolve=off
+-XX:ErrorFile=I:/Spring/SpringBoot/SpringBoot/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1751052426112
+-Dlanguageserver.hover-timeout=225
+-jar
+H:\spring-tool-suite-4-4.29.1.RELEASE-e4.35.0-win32.win32.x86_64\sts-4.29.1.RELEASE\plugins\org.springframework.tooling.boot.ls_1.61.1.202503181316\servers\spring-boot-language-server\spring-boot-language-server-1.61.1-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:06.114
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-06-27 15:27:06.171
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 17292
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.671
+!MESSAGE Boot project ADDED: Assignment
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.672
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.676
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.677
+!MESSAGE Boot project ADDED: BeanConfiguration
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.678
+!MESSAGE Boot project ADDED: BeanScope
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.679
+!MESSAGE Boot project ADDED: Calculator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.680
+!MESSAGE Boot project ADDED: Colors
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.681
+!MESSAGE Boot project ADDED: Component_Bean
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.681
+!MESSAGE Boot project ADDED: Controller_RestController
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.683
+!MESSAGE Boot project ADDED: E-Com
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.683
+!MESSAGE Boot project ADDED: EagerLazyJavabaseconfig
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.684
+!MESSAGE Boot project ADDED: EagerloaderLazyloader
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.685
+!MESSAGE Boot project ADDED: EmailSent
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.686
+!MESSAGE Boot project ADDED: EmployeeManagement
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.687
+!MESSAGE Boot project ADDED: ExceptionHandlingDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.688
+!MESSAGE Boot project ADDED: H2_DB_Demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.689
+!MESSAGE Boot project ADDED: LoggingDemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.690
+!MESSAGE Boot project ADDED: PathVariable
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.691
+!MESSAGE Boot project ADDED: Po
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.692
+!MESSAGE Boot project ADDED: Product_Catalogue
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.693
+!MESSAGE Boot project ADDED: Product_Catalogue1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.710
+!MESSAGE Boot project ADDED: QualifierAnnatation
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-06-27 15:27:07.711
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ramya'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.711
+!MESSAGE Boot project ADDED: QuoteGenerator
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.712
+!MESSAGE Boot project ADDED: Registration_Form
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.713
+!MESSAGE Boot project ADDED: SpringSecurity
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.714
+!MESSAGE Boot project ADDED: StereotypeAnnotations
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.715
+!MESSAGE Boot project ADDED: ToDoList
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.716
+!MESSAGE Boot project ADDED: Weather
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.717
+!MESSAGE Boot project ADDED: demo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-06-27 15:27:07.719
+!MESSAGE Boot project ADDED: springbootsecurityauthentication
+
+!ENTRY org.eclipse.jface 2 0 2025-06-27 15:29:15.691
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2025-06-27 15:29:15.692
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolInWorkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolInWorkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
